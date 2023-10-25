@@ -1,5 +1,5 @@
 {
-  "name": "nest-js",
+  "name": "taipei-travel",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,13 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "antd": "^5.10.2",
+    "axios": "^1",
+    "axios-cache-interceptor": "^1",
+    "gsap": "^3.12.2",
     "next": "13.5.4",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-svg": "^16.1.29",
+    "sass": "^1.63.6",
+    "standard-version": "^9.5.0",
+    "zustand": "^4.3.8",
+    "swiper": "^10.3.1"
   },
   "devDependencies": {
     "@types/node": "^20",
-    "@types/react": "^18",
+    "@types/react": "^18.2.31",
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "13.5.4",

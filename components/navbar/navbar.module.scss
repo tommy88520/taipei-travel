@@ -1,0 +1,45 @@
+.container {
+  z-index: 100;
+  background-color:  var(--primary-color);
+  color: var(--font-color);
+  margin-top: 0;
+  padding-left: 60px;
+  padding-right: 60px;
+  position: fixed;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
+
+
+  &-logo {
+    svg {
+      width: 130px;
+    }
+  }
+  &-inner {
+    display: flex;
+    max-width: 1240px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  &-link__wrap {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+  }
+
+  &-link__text {
+    color: var(--font-color);
+    border-bottom: 2px solid var(--primary-color);
+    
+    &:hover {
+      border-bottom: 2px solid var(--font-color);
+      transition: all .5s;
+    }
+  }
+}

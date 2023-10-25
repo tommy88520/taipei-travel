@@ -1,0 +1,42 @@
+.contact {
+  padding-top: 100px;
+  &-form {
+    width: 60%;
+    margin: auto;
+    border: 1px solid var(--primary-color);
+    max-width: 600px;
+    background: var(--third-color);
+    margin-bottom: 100px;
+
+    form {
+      margin: auto;
+      padding: 20px;
+    }
+
+    input,textarea {
+      background-color: var(--second-color);
+    }
+
+    label {
+      color: var(--font-color) !important;
+    }
+
+    button {
+      background-color: var(--primary-color);
+      &:hover {
+        background-color: var(--second-color) !important;
+        color: var(--primary-color) !important;
+      }
+    }
+  }
+
+  &-form__title {
+    text-align: center;
+    background-color: var(--second-color);
+    border-bottom: 1px solid var(--primary-color);
+  }
+
+  &-form__wrap {
+    // border: 1px solid #000
+  }
+}
